@@ -26,8 +26,8 @@ export const Intro = ({intro, displayOff}) => {
       <h1>choices.</h1>
       <Box lineHeight="1%" color={"aquamarine"}>
         <h6>a tool created by rasha rahman</h6>
-        <Box as="h6" display="block" mt={-10}>
-          is loading now
+        <Box as='circle' display="block" mt={-10}>
+        
         </Box>
       </Box>
     </Box>

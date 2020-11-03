@@ -35,8 +35,11 @@ export default function Home() {
     
     switch(e.keyCode) {
       case 191:
-        setIns(!ins)
+        e.shiftKey && setIns(!ins)
         console.log('2')
+        break;
+      case 13:
+        cardMsg.length > 1 ? handleShuffle() : handleClick()
         break;
 
     }
